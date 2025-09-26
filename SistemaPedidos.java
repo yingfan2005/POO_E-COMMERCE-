@@ -18,7 +18,7 @@ public class SistemaPedidos{
             System.out.println("O pagamento do cliente "+ cliente1.getNome()+" foi realizado com sucesso.");
             System.out.println("Produto: "+ I1.getProduto().getNome());
             System.out.println("Quantidade: "+ I1.getQuantidade());
-            System.out.printf("O valor total da compra: R$ %.2f ",pedido1.calcularTotal());
+            System.out.printf("O valor total da compra: R$ %.2f \n",pedido1.calcularTotal());
         }
         else
         {
@@ -36,7 +36,7 @@ public class SistemaPedidos{
             System.out.println("O pagamento do cliente "+ cliente2.getNome()+" foi realizado com sucesso.");
             System.out.println("Produto: "+ I2.getProduto().getNome());
             System.out.println("Quantidade: "+ I2.getQuantidade());
-            System.out.printf("O valor total da compra: R$ %.2f ",pedido2.calcularTotal());
+            System.out.printf("O valor total da compra: R$ %.2f \n",pedido2.calcularTotal());
         }
         else
         {
@@ -54,7 +54,7 @@ public class SistemaPedidos{
             System.out.println("O pagamento do cliente "+ cliente3.getNome()+" foi realizado com sucesso.");
             System.out.println("Produto: "+ I3.getProduto().getNome());
             System.out.println("Quantidade: "+ I3.getQuantidade());
-            System.out.printf("O valor total da compra: R$ %.2f ",pedido3.calcularTotal());
+            System.out.printf("O valor total da compra: R$ %.2f \n",pedido3.calcularTotal());
         }
         else
         {
@@ -78,7 +78,7 @@ public class SistemaPedidos{
             System.out.println("Produto: "+ I5.getProduto().getNome());
             System.out.println("Produto: "+ I6.getProduto().getNome());
             System.out.println("Quantidade: "+ I4.getQuantidade());
-           System.out.printf("O valor total da compra: R$ %.2f ",pedido4.calcularTotal());
+            System.out.printf("O valor total da compra: R$ %.2f \n",pedido4.calcularTotal());
         }
         else
         {
