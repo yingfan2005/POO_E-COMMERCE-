@@ -1,9 +1,9 @@
 public class SistemaPedidos{
     public static void main(String[] args){
         //produtos
-        Produto produto1 = new Produto("KeyBoard",100,100);
-        Produto produto2 = new Produto("Mouse",30.0,200);
-        Produto produto3 = new Produto("Capa de Notebook",40.0,150);
+        Produto produto1 = new Produto("KeyBoard",100.00,100);
+        Produto produto2 = new Produto("Mouse",30.00,200);
+        Produto produto3 = new Produto("Capa de Notebook",40.00,150);
 
         //primeiro cliente
         ClientePF cliente1 = new ClientePF("João","joao@gmail.com","123456");
